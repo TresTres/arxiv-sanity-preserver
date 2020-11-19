@@ -34,6 +34,7 @@ def start_job(bucket, obj):
             'S3Prefix': 'raw_textract'
         }
     )
+    print(response)
     jobid = response['JobId']
     return jobid
 

@@ -93,7 +93,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/asp2/dev/1605822281737-2020-11-19T21:44:41.737Z/asp2.zip"
+          "S3Key": "serverless/asp2/dev/1605824611875-2020-11-19T22:23:31.875Z/asp2.zip"
         },
         "FunctionName": "asp2-dev-clear_buckets",
         "Handler": "lambdas/clear_buckets.main",
@@ -112,14 +112,14 @@
         "ClearUnderscorebucketsLogGroup"
       ]
     },
-    "ClearUnderscorebucketsLambdaVersionP0mFH9UcjaG0f8M0Zykz9bkKWo86CrApR6rDaYMDYtY": {
+    "ClearUnderscorebucketsLambdaVersionRZfGVx7lTpOJHfBAXnehIbe6ZuiKm4V8nRhE8EFvzWo": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ClearUnderscorebucketsLambdaFunction"
         },
-        "CodeSha256": "aDX3TN+99o/I4KCFwI/4kUYf5h62YHhi7l7NFyAwSKc="
+        "CodeSha256": "lWJoFJaBjlo+6WuCJuzdZSWi9WJS+hgufkBS12XpfnI="
       }
     },
     "FetchUnderscoreentryUnderscoredataLambdaFunction": {
@@ -129,7 +129,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/asp2/dev/1605822281737-2020-11-19T21:44:41.737Z/asp2.zip"
+          "S3Key": "serverless/asp2/dev/1605824611875-2020-11-19T22:23:31.875Z/asp2.zip"
         },
         "FunctionName": "asp2-dev-fetch_entry_data",
         "Handler": "lambdas/fetch_entry_data.main",
@@ -147,14 +147,14 @@
         "FetchUnderscoreentryUnderscoredataLogGroup"
       ]
     },
-    "FetchUnderscoreentryUnderscoredataLambdaVersion9lZ4BcvlxXC95mtFtCdBUjtMBch0unVDW9tNuYhL0": {
+    "FetchUnderscoreentryUnderscoredataLambdaVersionxcx3S7RFbiWNGXfldB0Q7zBgsMhTLNCXbqYwcaONE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "FetchUnderscoreentryUnderscoredataLambdaFunction"
         },
-        "CodeSha256": "aDX3TN+99o/I4KCFwI/4kUYf5h62YHhi7l7NFyAwSKc="
+        "CodeSha256": "lWJoFJaBjlo+6WuCJuzdZSWi9WJS+hgufkBS12XpfnI="
       }
     },
     "ProcessUnderscorestreamLambdaFunction": {
@@ -164,7 +164,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/asp2/dev/1605822281737-2020-11-19T21:44:41.737Z/asp2.zip"
+          "S3Key": "serverless/asp2/dev/1605824611875-2020-11-19T22:23:31.875Z/asp2.zip"
         },
         "FunctionName": "asp2-dev-process_stream",
         "Handler": "lambdas/process_stream.main",
@@ -183,14 +183,14 @@
         "dynamoDBInstance"
       ]
     },
-    "ProcessUnderscorestreamLambdaVersionrEW6kIu1HEArWew36RZZZ6NFwJXeVFP2N6MzEGs": {
+    "ProcessUnderscorestreamLambdaVersionLLtx6JyhTiaOePRzJ7j6jpAc1Lkx7YWAbaMAErIMsGs": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ProcessUnderscorestreamLambdaFunction"
         },
-        "CodeSha256": "aDX3TN+99o/I4KCFwI/4kUYf5h62YHhi7l7NFyAwSKc="
+        "CodeSha256": "lWJoFJaBjlo+6WuCJuzdZSWi9WJS+hgufkBS12XpfnI="
       }
     },
     "ExtractUnderscoretextLambdaFunction": {
@@ -200,7 +200,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/asp2/dev/1605822281737-2020-11-19T21:44:41.737Z/asp2.zip"
+          "S3Key": "serverless/asp2/dev/1605824611875-2020-11-19T22:23:31.875Z/asp2.zip"
         },
         "FunctionName": "asp2-dev-extract_text",
         "Handler": "lambdas/extract_text.main",
@@ -222,14 +222,14 @@
         "ExtractUnderscoretextLogGroup"
       ]
     },
-    "ExtractUnderscoretextLambdaVersionPafGT5HWki8u7ePVQF9po2XZDPwPPySZ0NmZ9vZQZC4": {
+    "ExtractUnderscoretextLambdaVersionzdK7p1KmJXAt7czH1cEe3BEnkXo9ny9tPpU44xF3o": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ExtractUnderscoretextLambdaFunction"
         },
-        "CodeSha256": "aDX3TN+99o/I4KCFwI/4kUYf5h62YHhi7l7NFyAwSKc="
+        "CodeSha256": "lWJoFJaBjlo+6WuCJuzdZSWi9WJS+hgufkBS12XpfnI="
       }
     },
     "ExtractUnderscoredoneLambdaFunction": {
@@ -239,7 +239,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/asp2/dev/1605822281737-2020-11-19T21:44:41.737Z/asp2.zip"
+          "S3Key": "serverless/asp2/dev/1605824611875-2020-11-19T22:23:31.875Z/asp2.zip"
         },
         "FunctionName": "asp2-dev-extract_done",
         "Handler": "lambdas/extract_done.main",
@@ -252,14 +252,14 @@
         "ExtractUnderscoredoneLogGroup"
       ]
     },
-    "ExtractUnderscoredoneLambdaVersionbJih2YioNidQ4z32OXgoZ6DkcCjjMknazkoI3msOfus": {
+    "ExtractUnderscoredoneLambdaVersion9Bt77zY2GMQSJ1DZzxSOVTUojkQ80KyCE0gTa40Qfsk": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ExtractUnderscoredoneLambdaFunction"
         },
-        "CodeSha256": "aDX3TN+99o/I4KCFwI/4kUYf5h62YHhi7l7NFyAwSKc="
+        "CodeSha256": "lWJoFJaBjlo+6WuCJuzdZSWi9WJS+hgufkBS12XpfnI="
       }
     },
     "ExtractUnderscoretextCustomS31": {
@@ -389,7 +389,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/asp2/dev/1605822281737-2020-11-19T21:44:41.737Z/custom-resources.zip"
+          "S3Key": "serverless/asp2/dev/1605824611875-2020-11-19T22:23:31.875Z/custom-resources.zip"
         },
         "FunctionName": "asp2-dev-custom-resource-existing-s3",
         "Handler": "s3/handler.handler",
@@ -607,31 +607,31 @@
     "ClearUnderscorebucketsLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ClearUnderscorebucketsLambdaVersionP0mFH9UcjaG0f8M0Zykz9bkKWo86CrApR6rDaYMDYtY"
+        "Ref": "ClearUnderscorebucketsLambdaVersionRZfGVx7lTpOJHfBAXnehIbe6ZuiKm4V8nRhE8EFvzWo"
       }
     },
     "FetchUnderscoreentryUnderscoredataLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "FetchUnderscoreentryUnderscoredataLambdaVersion9lZ4BcvlxXC95mtFtCdBUjtMBch0unVDW9tNuYhL0"
+        "Ref": "FetchUnderscoreentryUnderscoredataLambdaVersionxcx3S7RFbiWNGXfldB0Q7zBgsMhTLNCXbqYwcaONE"
       }
     },
     "ProcessUnderscorestreamLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ProcessUnderscorestreamLambdaVersionrEW6kIu1HEArWew36RZZZ6NFwJXeVFP2N6MzEGs"
+        "Ref": "ProcessUnderscorestreamLambdaVersionLLtx6JyhTiaOePRzJ7j6jpAc1Lkx7YWAbaMAErIMsGs"
       }
     },
     "ExtractUnderscoretextLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ExtractUnderscoretextLambdaVersionPafGT5HWki8u7ePVQF9po2XZDPwPPySZ0NmZ9vZQZC4"
+        "Ref": "ExtractUnderscoretextLambdaVersionzdK7p1KmJXAt7czH1cEe3BEnkXo9ny9tPpU44xF3o"
       }
     },
     "ExtractUnderscoredoneLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ExtractUnderscoredoneLambdaVersionbJih2YioNidQ4z32OXgoZ6DkcCjjMknazkoI3msOfus"
+        "Ref": "ExtractUnderscoredoneLambdaVersion9Bt77zY2GMQSJ1DZzxSOVTUojkQ80KyCE0gTa40Qfsk"
       }
     }
   }
